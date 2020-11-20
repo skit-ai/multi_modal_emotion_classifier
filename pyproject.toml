@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "multi-modal-emotion-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Karthik <karthikganesan17@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+tensorflow = "^2.3.1"
+sklearn = "^0.0"
+pandas = "^1.1.4"
+soundfile = "^0.10.3"
+librosa = "^0.8.0"
+tqdm = "^4.52.0"
+sentence-transformers = "^0.3.9"
+docopt = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+model = "multi_modal_emotion_classifier.run:main"

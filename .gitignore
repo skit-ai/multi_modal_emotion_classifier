@@ -1,0 +1,9 @@
+#Ignoring CSVs 
+*.csv 
+
+#Ignoring data directory 
+data/
+
+#Ignoring environment
+.venv
+
