@@ -2,7 +2,7 @@
 name = "multi-modal-emotion-classifier"
 version = "0.1.0"
 description = ""
-authors = ["Karthik <karthikganesan17@gmail.com>"]
+authors = ["Karthik <karthikganesan17@gmail.com>", "Swaraj <swarajdalmia.bitspilani@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6.1"

@@ -7,3 +7,6 @@ data/
 #Ignoring environment
 .venv
 
+#Ignoring VSCode related stuff
+.vscode/
+workspace.code-workspace
